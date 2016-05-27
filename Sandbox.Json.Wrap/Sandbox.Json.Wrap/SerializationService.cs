@@ -23,7 +23,7 @@ namespace Sandbox.Json.Wrap
             return JsonConvert.SerializeObject(data, SerializerSettings);
         }
 
-        public T Deserialize<T>(string json)
+        T ISerializationService.Deserialize<T>(string json)
         {
             return JsonConvert.DeserializeObject<T>(json, SerializerSettings);
         }
