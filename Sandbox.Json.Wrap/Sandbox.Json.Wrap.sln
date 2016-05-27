@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Json.Wrap", "Sandbox.Json.Wrap\Sandbox.Json.Wrap.csproj", "{F4E3A620-B9F9-4863-92F4-D928E6F1DC44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Json.Wrap.Tests", "Sandbox.Json.Wrap.Tests\Sandbox.Json.Wrap.Tests.csproj", "{3897ADBC-7F98-45DE-BA34-376DF5CE51C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4E3A620-B9F9-4863-92F4-D928E6F1DC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E3A620-B9F9-4863-92F4-D928E6F1DC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E3A620-B9F9-4863-92F4-D928E6F1DC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E3A620-B9F9-4863-92F4-D928E6F1DC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3897ADBC-7F98-45DE-BA34-376DF5CE51C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3897ADBC-7F98-45DE-BA34-376DF5CE51C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3897ADBC-7F98-45DE-BA34-376DF5CE51C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3897ADBC-7F98-45DE-BA34-376DF5CE51C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
